@@ -451,6 +451,19 @@ chart.loadDrawings(savedLayout);    // replace all drawings with a saved layout
 **Delete** or **Backspace** removes the selected drawing (not while typing in a field, and never a locked
 drawing). **Escape** cancels a drawing in progress; **Enter** finishes a path or polyline.
 
+### Touch screens (phones and tablets)
+
+| Gesture | Does |
+|---|---|
+| Drag with one finger | Pan the chart (or drag a drawing handle, an axis, a trade line) |
+| Pinch / spread two fingers | Zoom out / in; moving both fingers pans |
+| Tap | Place a drawing point, select a drawing, show the crosshair on a candle |
+| Double-tap | Same as double-click: finish a path, edit text, reset an axis |
+| Long-press | Same as right-click: price-axis menu, cancel a drawing in progress |
+
+Handles and lines are easier to grab by finger (larger touch targets), and the indicator legend's buttons
+stay visible on devices without hover.
+
 ### Let the user draw
 
 ```ts
