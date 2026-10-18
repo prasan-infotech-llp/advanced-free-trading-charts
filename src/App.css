@@ -1,0 +1,13 @@
+/* Chart on the left, order sidebar on the right. */
+.page {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-app, #e0e3eb);
+}
+
+.chart-area {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+}

@@ -1,0 +1,91 @@
+/* Plain top bar above the terminal. */
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.app-shell > .page {
+  flex: 1;
+  min-height: 0;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  height: 48px;
+  padding: 0 16px;
+  background: #ffffff;
+  border-bottom: 1px solid #e0e3eb;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  color: #131722;
+}
+
+.navbar-logo {
+  display: block;
+  width: auto;
+}
+
+.navbar-feed {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-feed-label {
+  color: #787b86;
+}
+
+.navbar-feed-name {
+  font-weight: 600;
+}
+
+.navbar-switch {
+  position: relative;
+  flex-shrink: 0;
+  width: 38px;
+  height: 22px;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background: #c3c6ce;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.navbar-switch.is-on {
+  background: #2962ff;
+}
+
+.navbar-switch:focus-visible {
+  outline: 2px solid #2962ff;
+  outline-offset: 2px;
+}
+
+.navbar-switch-thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s;
+}
+
+.navbar-switch.is-on .navbar-switch-thumb {
+  transform: translateX(16px);
+}
+
+@media (max-width: 640px) {
+  .navbar-feed-label {
+    display: none;
+  }
+}
