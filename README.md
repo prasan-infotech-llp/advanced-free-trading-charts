@@ -11,7 +11,17 @@
 </p>
 
 <p align="center">
-  <img src="public/hero-chart.webp" alt="BeTurtl Charts terminal with a live BTCUSDT chart" width="900" />
+  <a href="https://beturtl.com"><strong>▶ Open the live demo — beturtl.com</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#quick-start">Quick start</a>
+  &nbsp;·&nbsp;
+  <a href="#licensing">Licensing</a>
+</p>
+
+<p align="center">
+  <a href="https://beturtl.com">
+    <img src="public/hero-chart.webp" alt="BeTurtl Charts terminal with a live BTCUSDT chart — open the live demo" width="900" />
+  </a>
 </p>
 
 This repository is a **ready-to-run demo and starter project**. It contains the compiled BeTurtl Charts
@@ -20,7 +30,6 @@ market data and a demo order panel. Clone it, run it, and copy what you need int
 
 > **License:** free for **noncommercial use only**. **Commercial use is not permitted at this time** —
 > commercial licenses are coming soon, and we'll notify you once they're available. See [Licensing](#licensing).
-> See [Licensing](#licensing).
 
 ---
 
@@ -70,6 +79,10 @@ market data and a demo order panel. Clone it, run it, and copy what you need int
 ---
 
 ## Quick start
+
+**Just want to see it?** Open the live demo at **<https://beturtl.com>** — nothing to install.
+
+To run it yourself:
 
 Requirements: **Node.js 20+** and npm.
 
@@ -993,6 +1006,7 @@ Details: [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
 
 ## Support
 
+- Live demo: <https://beturtl.com>
 - Licensing questions and commercial-license notifications: **admin@prasaninfotech.in**
 - Website: <https://prasaninfotech.in>
 

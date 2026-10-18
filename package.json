@@ -2,7 +2,8 @@
   "name": "beturtl-charts-demo",
   "private": true,
   "version": "1.0.0",
-  "description": "Demo and starter project for BeTurtl Charts — professional trading charts for React and TypeScript.",
+  "description": "Demo and starter project for BeTurtl Charts \u2014 professional trading charts for React and TypeScript.",
+  "homepage": "https://beturtl.com",
   "license": "SEE LICENSE IN LICENSE",
   "type": "module",
   "scripts": {
