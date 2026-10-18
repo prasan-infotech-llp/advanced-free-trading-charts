@@ -28,6 +28,11 @@ This repository is a **ready-to-run demo and starter project**. It contains the 
 packages (in [`vendor/`](vendor)) and a React app that uses them: the full trading terminal with live
 market data and a demo order panel. Clone it, run it, and copy what you need into your own app.
 
+> **Found a bug? Help us improve.** We're actively looking for bugs, issues and rough edges — please tell us
+> about anything that doesn't work as expected. Open an issue on
+> [GitHub Issues](https://github.com/prasan-infotech-llp/beturtl-charts/issues) (with steps to reproduce,
+> your browser, and a screenshot if you can) or email **admin@prasaninfotech.in**. Feature ideas are welcome too.
+
 > **License:** free for **noncommercial use only**. **Commercial use is not permitted at this time** —
 > commercial licenses are coming soon, and we'll notify you once they're available. See [Licensing](#licensing).
 
