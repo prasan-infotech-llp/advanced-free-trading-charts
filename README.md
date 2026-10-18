@@ -5,7 +5,7 @@
 <h1 align="center">BeTurtl Charts</h1>
 
 <p align="center">
-  Professional trading charts for React and TypeScript — real-time candles, 126 indicators,
+  Professional trading charts for React and TypeScript — real-time candles, 110+ indicators,
   85 drawing tools, 21 chart types and multi-chart layouts.<br />
   By <a href="https://prasaninfotech.in">Prasan Infotech LLP</a>.
 </p>
@@ -58,7 +58,7 @@ market data and a demo order panel. Clone it, run it, and copy what you need int
 |---|---|
 | **Real-time data** | 12 exchanges built in — Binance, Bybit, OKX, Coinbase, Kraken, KuCoin, Hyperliquid, Gate.io, Bitfinex, Bitstamp, CoinDCX, Delta Exchange (spot and futures) — or **your own data feed in the full terminal** (stocks, forex, your broker, …). |
 | **85 drawing tools** | Trend lines, rays, channels, pitchforks, Fibonacci and Gann tools, harmonic and Elliott patterns, long/short positions, measure, shapes, text, notes, tables, images and more. Drawings can extend past the live candle. |
-| **126 indicators** | Moving averages, oscillators, trend, volatility, volume, momentum, Bill Williams, pivot points and statistics — overlays or separate panes, with full settings. |
+| **110+ indicators** | Moving averages, oscillators, trend, volatility, volume, momentum, Bill Williams, pivot points and statistics — overlays or separate panes, with full settings. |
 | **21 chart types** | Candles, hollow/volume candles, Heikin Ashi, bars, line, area, baseline, columns, high-low, Renko, Kagi, Point & Figure, Line Break, Range, TPO, volume footprint, session volume profile. |
 | **Multi-chart layouts** | Up to 16 charts, with symbol, interval, crosshair, time and date-range sync. |
 | **Trading** | Draggable entry / take-profit / stop-loss lines with live P&L, and buy/sell execution markers. |
@@ -74,8 +74,8 @@ market data and a demo order panel. Clone it, run it, and copy what you need int
 Requirements: **Node.js 20+** and npm.
 
 ```bash
-git clone <this-repo-url> beturtl-charts-demo
-cd beturtl-charts-demo
+git clone https://github.com/prasan-infotech-llp/beturtl-charts.git
+cd beturtl-charts
 npm install
 npm run dev
 ```
@@ -486,12 +486,6 @@ Common indicator ids and their parameters:
 
 Browse every indicator from code: `INDICATOR_CATALOG`, `INDICATOR_CATEGORIES`, `searchIndicators("moving")`
 and `getIndicatorsByCategory("trend")` from `@trading/core`.
-
-> **Analysis indicators** — `triangle_patterns`, `wedge_patterns`, `liquidity_sweeps`, `choch_patterns`,
-> `bos_patterns`, `classic_patterns`, `compression_scan`, `pvzone_scan`, `market_sessions`,
-> `candlestick_patterns`, `strength_detect`, `swing_indicator`, `behavior_scan` and `tradeplan_scan` —
-> are computed by the BeTurtl analysis server and need its API URLs (`chartOptions.patternApiUrl`, …).
-> [Contact us](#support) for access.
 
 ---
 
@@ -980,7 +974,6 @@ support and **without the `Origin` header** — see [`vite.config.ts`](vite.conf
 | Pivot points | `pivot_standard`, `pivot_fibonacci`, `pivot_camarilla`, `pivot_woodie`, `pivot_demark` |
 | Statistics | `correlation`, `standard_deviation`, `variance`, `median`, `percentile` |
 | Other | `zigzag`, `elliott_wave`, `moon_phases`, `seasonality`, `cumulative_delta`, `open_interest`, `funding_rate` |
-| Analysis (needs the BeTurtl analysis API) | `triangle_patterns`, `wedge_patterns`, `liquidity_sweeps`, `choch_patterns`, `bos_patterns`, `classic_patterns`, `compression_scan`, `pvzone_scan`, `market_sessions`, `candlestick_patterns`, `strength_detect`, `swing_indicator`, `behavior_scan`, `tradeplan_scan` |
 ---
 
 ## Licensing
